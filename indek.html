@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>BIODATA SEDERHANA</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <h1 class="logo">CALVIN03</h1>
+            <nav>
+                <ul>
+                    <li><a href="#profil">PROFIL</a></li>
+                    <li><a href="#kontak">KONTAK</a></li>
+                    <li><a href="#tentang">TENTANG</a></li>
+                </ul>
+            </nav>
+            <button class="btn-cta" onclick="redirInstagram()">Follow saya</button>
+        </header>
+        <div  class="container">
+            <div class="intro" id="profil">
+                <p class="title">Hello, Calvin Maulana!</p>
+                <p class="description">Students of Janabadra University.</p>
+                <img src="fotoku/calvin 1.jpg" alt="calvin 1" class="img-foto"/>
+            </div>
+        </div>
+        <div class="parallax">
+            <div class="tentang" id="kontak">
+                <p class="title">Saya adalah manusia</p>
+                <p class="description">Tidak ada kata tidak sebelum kamu mencoba.</p>
+                <div class="mt-10">
+                    <button class="btn-cta" onclick="redirWhatsapp()">Mari Belajar Bersama</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="tentang">
+                <div class="card-item">
+                    <img src="fotoku/tentang.jpg" alt="icon 1" class="icon">
+                    <p class="card-title">NIM & PRODI</p>
+                    <p class="card-description">24330036 - INFORMATIKA</p>
+                </div>
+                <div class="card-item">
+                    <img src="fotoku/hobi.png" alt="icon 1" class="icon">
+                    <p class="card-title">HOBI</p>
+                    <p class="card-description">MEMANCING</p>
+                </div>
+                <div class="card-item">
+                    <img src="fotoku/rumah.jpg" alt="icon 1" class="icon">
+                    <p class="card-title">ASAL</p>
+                    <p class="card-description">PARE - KEDIRI</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="title">&copy; Calvin Maulana 2024</p>
+        </footer>
+        <script>
+            function redirInstagram() {
+                window.location.href = "https://www.instagram.com/xyws3091?igsh=MWI4MmhuZHNjN2c5cA=="
+            }
+
+            function redirWhatsapp() {
+                window.location.href = "https://wa.me/+6282245568084"
+            }
+        </script>
+    </body>
+</html>
